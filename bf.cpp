@@ -12,6 +12,8 @@ int currentPointer = 0;
 void show_cell();
 void StartConsole();
 void clear_screen();
+
+
 void interpret(const std::string& input, int pointer)
 {
     if(pointer>=input.length())
